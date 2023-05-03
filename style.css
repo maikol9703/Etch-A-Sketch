@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 1px;
+    background-color: #99e5e5;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 10px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: #efe5ef;
+    width:400px;
+    height: 400px;
+    margin: 5px;
+    min-width: 400px;
+    min-height:400px;
+}
+
+.contain{
+    display: flex;
+    width:400px;
+    height: 6.5%;
+}
+
+.diver{
+    display: flex;
+    flex-grow: 1;
+    align-items: stretch;
+    width: 20px;
+    background-color: rgb(247 249 244 / 17%);
+    border: 1px solid;
+    transition:all 1s;
+}
+
+
+
